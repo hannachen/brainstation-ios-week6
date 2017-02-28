@@ -14,6 +14,11 @@
 		5DA1CC091E63DFE300F818DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA1CC071E63DFE300F818DB /* LaunchScreen.storyboard */; };
 		5DA1CC141E63DFE300F818DB /* Week6_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1CC131E63DFE300F818DB /* Week6_HomeworkTests.swift */; };
 		5DA1CC1F1E63DFE300F818DB /* Week6_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1CC1E1E63DFE300F818DB /* Week6_HomeworkUITests.swift */; };
+		5DA1CC2D1E63E02E00F818DB /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1CC2C1E63E02E00F818DB /* EditViewController.swift */; };
+		5DA1CC2F1E63E05400F818DB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1CC2E1E63E05400F818DB /* Person.swift */; };
+		5DA1CC311E63E07200F818DB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1CC301E63E07200F818DB /* DetailsViewController.swift */; };
+		5DA1CC331E63E08B00F818DB /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1CC321E63E08B00F818DB /* Updatable.swift */; };
+		5DA1CC711E65031200F818DB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1CC701E65031200F818DB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		5DA1CC1A1E63DFE300F818DB /* Week6 HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week6 HomeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA1CC1E1E63DFE300F818DB /* Week6_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week6_HomeworkUITests.swift; sourceTree = "<group>"; };
 		5DA1CC201E63DFE300F818DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA1CC2C1E63E02E00F818DB /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		5DA1CC2E1E63E05400F818DB /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5DA1CC301E63E07200F818DB /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5DA1CC321E63E08B00F818DB /* Updatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		5DA1CC701E65031200F818DB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		5DA1CBF21E63DFE200F818DB = {
 			isa = PBXGroup;
 			children = (
+				5DA1CC701E65031200F818DB /* README.md */,
 				5DA1CBFD1E63DFE300F818DB /* Week6 Homework */,
 				5DA1CC121E63DFE300F818DB /* Week6 HomeworkTests */,
 				5DA1CC1D1E63DFE300F818DB /* Week6 HomeworkUITests */,
@@ -97,10 +108,14 @@
 		5DA1CBFD1E63DFE300F818DB /* Week6 Homework */ = {
 			isa = PBXGroup;
 			children = (
+				5DA1CC051E63DFE300F818DB /* Assets.xcassets */,
 				5DA1CBFE1E63DFE300F818DB /* AppDelegate.swift */,
 				5DA1CC001E63DFE300F818DB /* ViewController.swift */,
+				5DA1CC2C1E63E02E00F818DB /* EditViewController.swift */,
+				5DA1CC301E63E07200F818DB /* DetailsViewController.swift */,
+				5DA1CC2E1E63E05400F818DB /* Person.swift */,
+				5DA1CC321E63E08B00F818DB /* Updatable.swift */,
 				5DA1CC021E63DFE300F818DB /* Main.storyboard */,
-				5DA1CC051E63DFE300F818DB /* Assets.xcassets */,
 				5DA1CC071E63DFE300F818DB /* LaunchScreen.storyboard */,
 				5DA1CC0A1E63DFE300F818DB /* Info.plist */,
 			);
@@ -262,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA1CC331E63E08B00F818DB /* Updatable.swift in Sources */,
 				5DA1CC011E63DFE300F818DB /* ViewController.swift in Sources */,
 				5DA1CBFF1E63DFE300F818DB /* AppDelegate.swift in Sources */,
+				5DA1CC2F1E63E05400F818DB /* Person.swift in Sources */,
+				5DA1CC711E65031200F818DB /* README.md in Sources */,
+				5DA1CC2D1E63E02E00F818DB /* EditViewController.swift in Sources */,
+				5DA1CC311E63E07200F818DB /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +534,7 @@
 				5DA1CC251E63DFE300F818DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DA1CC261E63DFE300F818DB /* Build configuration list for PBXNativeTarget "Week6 HomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +543,7 @@
 				5DA1CC281E63DFE300F818DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DA1CC291E63DFE300F818DB /* Build configuration list for PBXNativeTarget "Week6 HomeworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +552,7 @@
 				5DA1CC2B1E63DFE300F818DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

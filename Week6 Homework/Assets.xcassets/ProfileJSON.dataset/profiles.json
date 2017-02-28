@@ -1,0 +1,22 @@
+[{
+    "id": "hanna",
+    "name": "Hanna",
+    "details": "Some of Hanna's favourite things are: noodles, drawing, tinkering.",
+    "photo": "HannaPhoto",
+    "thumbnail": {
+        "x": 53,
+        "y": 12,
+        "size": 250
+    }
+},
+{
+    "id": "shaun",
+    "name": "Shaun",
+    "details": "Shaun loves cycling, craft beer, and playing Overwatch.",
+    "photo": "ShaunPhoto",
+    "thumbnail": {
+        "x": 31,
+        "y": 17,
+        "size": 460
+    }
+}]
